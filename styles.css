@@ -16,7 +16,7 @@
 
 /* MainMenu */
 .MainMenu{
-    background: #1E1E1E;
+    background: #666666;
     height: 3.75em;
     left:0;
     position: fixed;
@@ -35,7 +35,7 @@
 }
 
 .MainMenu-link{
-    color: #00DBFF;
+    color: #eee;
     font-size: 1.25em;
     line-height: 60px;
     margin: 0 1.25em;
@@ -118,8 +118,7 @@
 
 .Footer{
 
-
-    background-position: center;
+    background:#666666;
     background-size: cover;
     text-align: center;
     padding: 2em 0;
@@ -140,7 +139,7 @@
 .Footer-form{
     padding: 2em;
     width: 18em;
-    display:  inline-block;
+
     vertical-align: top;
 }
 
