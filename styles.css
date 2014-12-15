@@ -1,7 +1,51 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('fonts/icomoon.eot?lrb051');
+    src:url('fonts/icomoon.eot?#iefixlrb051') format('embedded-opentype'),
+    url('fonts/icomoon.woff?lrb051') format('woff'),
+    url('fonts/icomoon.ttf?lrb051') format('truetype'),
+    url('fonts/icomoon.svg?lrb051#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+    content: "\e600";
+}
+.icon-twitter:before {
+    content: "\e601";
+}
+.icon-github:before {
+    content: "\e602";
+}
+.icon-github2:before {
+    content: "\e603";
+}
+.icon-twitter2:before {
+    content: "\e604";
+}
+.icon-facebook2:before {
+    content: "\e605";
+}
+
 /* Utilidades */
 .u-title{
-    border-bottom: 2px dashed #00DBFF;
-    color: #00DBFF;
+    border-bottom: 2px dashed #121313;
+    color: #030505;
     font-weight: 400;
     padding-bottom: .5em;
     text-align: center;
@@ -56,11 +100,13 @@
 .Header-image{
     border:5px solid white;
     border-radius: 50%;
+    max-width: 200px;
+
 }
 
 .Header-link,
 .Header-name{
-    color: white;
+
 }
 
 .Header-link{
@@ -129,6 +175,10 @@
     color: white;
     padding: .5em;
     border-radius: 1.5em;
+}
+.Footer-description
+{
+    color: #eeeeee;
 }
 
 .Footer-left{
